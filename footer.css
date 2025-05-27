@@ -1,0 +1,86 @@
+    footer{
+    
+    background-color: #003a5b;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+
+    .foot-left{
+        font-weight: bold;
+        font-size: 20px;
+
+    } 
+    .foot-middle{
+      font-weight: bold;
+      font-size: 40px;
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+
+    .foot-left, .foot-right {
+        display: none; /* Initially hidden */
+        opacity: 0;
+        transition: opacity 0.5s ease; /* Smooth transition for opacity */
+      }
+      .footer-content.active .foot-left, .footer-content.active .foot-right {
+        display: block;
+        opacity: 1;
+      }
+  
+      /* Button styling */
+      .reveal-button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      .reveal-button:hover {
+        background-color: #45a049;
+      }
+
+    
+
+    footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    }
+
+    
+
+    .sachin-img{
+        height: 20vh;
+        width: 20vw;
+    }
+
+
+    @media(max-width: 1330px){
+        .sachin-img{
+            height: 20vh;
+            width: 65vw;
+        }
+        .foot-left{
+          font-weight: bold;
+          font-size: 20px;
+  
+      } 
+    }

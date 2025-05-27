@@ -1,0 +1,44 @@
+.sec4{
+    box-sizing: border-box;
+    background: #003a5b;
+    
+    width: 100%;
+    border-bottom: solid white 2px;
+    
+}
+.sec4 ul{
+    box-sizing: border-box;
+    display: flex;
+    
+    align-items: start;
+
+    padding-top: 80px;
+    padding-left: 300px;
+    padding-bottom: 80px;
+    gap: 30px;
+}
+.sec4 ul li{
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+@media(max-width: 1330px){
+    .sec4 ul{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 25px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        
+    }
+    .sec4 ul li{
+        
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,42 @@
+.aiche-tag {
+    
+    background-color: white;
+    color: #003E7E;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    border-top: none;
+    }
+
+    .aiche-tag .tag-content p {
+        font-weight: bold;
+        
+        margin: 5px 0;
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
+
+    .aiche-tag .tag-content p:first-child {
+        
+        font-weight: bold;
+        font-size: 2.7em;
+        margin-bottom: 10px;
+        
+    }
+    .tag-second{
+        
+        font-size: 1.9em;
+    }
+    
+
+    @media screen and (max-width: 768px) {
+        .aiche-tag .tag-content p {
+            color: #003E7E;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        .aiche-tag .tag-content p:first-child{
+            font-size: 1.7em;
+
+        }
+    }
